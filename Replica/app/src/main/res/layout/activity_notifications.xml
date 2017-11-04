@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anwesha.replica.notifications"
+    android:orientation="vertical"
+    android:background="@drawable/image1">
+    <EditText
+        android:id="@+id/notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Notification To Show"
+        android:background="@drawable/round"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ishu"
+        android:text="Projects At One Glance"
+        style="?android:attr/buttonStyleInset"/>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anwesha.replica.MainActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pp" />
+
+        <Button
+            android:id="@+id/button"
+            style="?android:attr/buttonStyleInset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.99"
+            android:hint="Create A Project"
+            android:onClick="new1" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleInset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.01"
+            android:hint="By Products Of IBMD"
+            android:onClick="new2" />
+
+        <Button
+            android:id="@+id/button3"
+            style="?android:attr/buttonStyleInset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.01"
+            android:hint="next"
+            android:onClick="new3" />
+
+        <ImageButton
+            android:id="@+id/image_button_android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/image2" />
+
+
+    </LinearLayout>
+</LinearLayout>

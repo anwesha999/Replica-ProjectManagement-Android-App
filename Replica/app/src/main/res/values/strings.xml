@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Replica</string>
+    <string-array name="type">
+        <item>Brainstorming of Ideas</item>
+        <item>Phase 1</item>
+        <item>Phase 2</item>
+        <item>Phase 3</item>
+        <item>Testing 1</item>
+        <item>Testing 2</item>
+        <item>Implication</item>
+    </string-array>
+    <string-array name="label">
+        <item>Highly Important</item>
+        <item>Important</item>
+        <item>Considerable</item>
+        <item>Extraneous</item>
+        <item>Insignificant</item>
+        <item>Inapplicable</item>
+        <item>Implication</item>
+    </string-array>
+    <string-array name="ratemyself">
+        <item>5..Beyond Expectations</item>
+        <item>4..Good</item>
+        <item>3..Contended</item>
+        <item>2..Not Upto The Mark</item>
+        <item>1..Poor</item>
+    </string-array>
+</resources>

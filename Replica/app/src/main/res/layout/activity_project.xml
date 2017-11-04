@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anwesha.replica.project"
+    android:orientation="vertical"
+    android:background="@drawable/blue">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PROJECT MANAGEMENT APP"
+        android:id="@+id/textView"
+        android:layout_marginTop="50dp"
+        android:textColor="#45454545"
+        android:layout_marginLeft="120dp"/>
+
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="250dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+            android:id="@+id/button"
+            style="?android:attr/buttonStyleInset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Open Project"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_style"
+            android:onClick="next"/>
+
+            <Button
+                android:id="@+id/button4"
+                style="?android:attr/buttonStyleInset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Progress In Projects"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_style"
+                android:onClick="next" />
+
+            <Button
+            style="?android:attr/buttonStyleInset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+            android:hint="Done Projects" android:background="@drawable/button_style"
+            android:onClick="next" />
+
+            <Button
+                style="?android:attr/buttonStyleInset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Assistance"
+                android:background="@drawable/button_style"
+                android:layout_margin="10dp"
+                android:onClick="next1" />
+            <Button
+                style="?android:attr/buttonStyleInset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Notifications"
+                android:background="@drawable/button_style"
+                android:layout_margin="10dp"
+                android:onClick="next2"
+                />
+            <Button
+                style="?android:attr/buttonStyleInset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Discuss"
+                android:background="@drawable/button_style"
+                android:layout_margin="10dp"
+                android:onClick="next4"
+                />
+            <Button
+                style="?android:attr/buttonStyleInset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gantt Chart"
+                android:background="@drawable/button_style"
+                android:layout_margin="10dp"
+                android:onClick="next5"
+                />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

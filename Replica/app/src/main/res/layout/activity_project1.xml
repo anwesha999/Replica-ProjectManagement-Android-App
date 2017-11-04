@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anwesha.replica.project1"
+    android:orientation="vertical"
+    android:background="@drawable/blue">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/Project_Name"
+                android:name="Project_Name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/fillcolor"
+                android:ems="10"
+                android:hint="  Project_Name"
+                android:inputType="textPersonName"
+                 />
+
+            <EditText
+                android:id="@+id/Desc_of_project"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:hint="  Description of the project"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPersonName"
+                android:background="@drawable/fillcolor"/>
+
+            <EditText
+                android:id="@+id/Assigned_to"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/fillcolor"
+                android:ems="10"
+                android:hint="  Assigned To"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/phone_no"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="  phone_no"
+                android:inputType="number"
+                android:background="@drawable/fillcolor"/>
+
+            <EditText
+                android:id="@+id/email_id"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="  email_id"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/fillcolor"/>
+
+            <EditText
+                android:id="@+id/date_due_of_the_project"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="  date_due_of_the_project"
+                android:inputType="date"
+                android:background="@drawable/fillcolor"/>
+            <EditText
+                android:id="@+id/duration_of_the_project"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="  duration_of_the_project"
+                android:inputType="date"
+                android:background="@drawable/fillcolor"/>
+
+
+            <EditText
+                android:id="@+id/phase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="  Phase of project"
+                android:background="@drawable/fillcolor"/>
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="66dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:drawSelectorOnTop="false"
+                android:entries="@array/type" />
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="66dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:drawSelectorOnTop="false"
+                android:entries="@array/label" />
+
+            <Button
+                android:id="@+id/next440"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="next440"
+                android:text="next"
+                style="?android:attr/buttonStyleInset"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

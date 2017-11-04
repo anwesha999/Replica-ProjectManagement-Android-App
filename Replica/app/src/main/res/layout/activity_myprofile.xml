@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anwesha.replica.myprofile"
+    android:orientation="vertical"
+    android:background="@drawable/sh"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="172dp"
+        android:layout_height="128dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="49dp"
+        app:srcCompat="@drawable/image1" />
+
+    <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capture Image"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="62dp" />
+
+    <EditText
+        android:id="@+id/call"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="60dp"
+        tools:text="Mobile Number" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:layout_alignBaseline="@+id/call"
+            android:layout_alignBottom="@+id/call"
+            android:layout_toEndOf="@+id/call"
+            android:layout_marginStart="16dp" />
+
+        <EditText
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/call"
+            android:layout_marginTop="41dp"
+            android:layout_marginLeft="17dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter URL"
+            android:layout_toStartOf="@+id/button3" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button3"
+            android:layout_alignTop="@+id/url"
+            android:text="WEB" />
+
+</RelativeLayout>

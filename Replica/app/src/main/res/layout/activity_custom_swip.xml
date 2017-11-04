@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Welcome To The Project Management App"
+        android:id="@+id/imageCount"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="lead to main activity"
+        android:onClick="new1" />
+
+    <ImageView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/swip_image_view"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/star_big_on" />
+
+
+</LinearLayout>
